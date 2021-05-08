@@ -8,8 +8,11 @@ int main(int argc, char **argv)
 
     a = 2;
 
-    for (b = 1; b <= MAXIMO; {b++; multi=fmultiplica(a,b) })
+    for (b = 1; b <= MAXIMO; b++)
     {
+
+        printf("(%i,%i) : ",a,b);
+        multi=fmultiplica(a,b); 
         muestraMulti(multi);
     }
 }
